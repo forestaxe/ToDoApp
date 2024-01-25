@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc490a81-2240-4411-b576-8b3c2025311e" name="Changes" comment="Connect PostgreSQL. Migrate model Task">
-      <change afterPath="$PROJECT_DIR$/schedulerApp/backend/urls.py" afterDir="false" />
+    <list default="true" id="cc490a81-2240-4411-b576-8b3c2025311e" name="Changes" comment="Create serializer Task model View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchedulerApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SchedulerApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedulerApp/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/backend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedulerApp/schedulerApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/schedulerApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedulerApp/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedulerApp/schedulerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/schedulerApp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706203694943</updated>
-      <workItem from="1706203696527" duration="4482000" />
+      <workItem from="1706203696527" duration="6889000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1706204471927</created>
@@ -62,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706209474586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Tasks Api Endpoint view. &#10;Reroute schedulerApp to backend views.">
+      <created>1706210703479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706210703479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create serializer Task model View">
+      <created>1706210919017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706210919017</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +97,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Connect PostgreSQL. Migrate model Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connect PostgreSQL. Migrate model Task" />
+    <MESSAGE value="Create Tasks Api Endpoint view. &#10;Reroute schedulerApp to backend views." />
+    <MESSAGE value="Create serializer Task model View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create serializer Task model View" />
   </component>
 </project>
