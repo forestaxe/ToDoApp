@@ -23,9 +23,16 @@ class App extends React.Component{
             const response = await axios.post('http://localhost:8000/tasks/', {
                 "task": this.state.firstValue,
                 "title": this.state.secondValue,
+            }).then(res =>{
+                axios.get('http://localhost:8000/tasks/')
+                    .then(res =>{
+                        this.setState({tasks: res.data})
+                        console.log(res)
+                    })
+                    .catch(err =>{
+                        console.log(err)
+                    });
             });
-
-            console.log('Data: ', response.data);
         } catch (error) {
             console.error(error);
         }
