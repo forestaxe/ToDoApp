@@ -51,6 +51,7 @@ class App extends React.Component{
 
   render() {
     const tasks = this.state.tasks;
+    document.title = "Todo React App";
     return(
         <>
             <div className="main-div">

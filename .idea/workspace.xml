@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc490a81-2240-4411-b576-8b3c2025311e" name="Changes" comment="Implement Task-Submission React.">
-      <change afterPath="$PROJECT_DIR$/schedulerApp/backend/middleware.py" afterDir="false" />
+    <list default="true" id="cc490a81-2240-4411-b576-8b3c2025311e" name="Changes" comment="Implement auto-rerender of the web-page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedulerApp/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedulerApp/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/backend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedulerApp/schedulerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedulerApp/schedulerApp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +23,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\SchedulerApp\schedulerApp\backend" />
@@ -53,7 +49,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706203694943</updated>
-      <workItem from="1706203696527" duration="7925000" />
+      <workItem from="1706203696527" duration="8409000" />
+      <workItem from="1706265656049" duration="2384000" />
+      <workItem from="1706298638216" duration="1189000" />
+      <workItem from="1706336229284" duration="1166000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1706204471927</created>
@@ -90,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706214598072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Close Django web-pages from unauthorized users.">
+      <created>1706215891245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706215891245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implement auto-rerender of the web-page.">
+      <created>1706215973799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706215973799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +126,8 @@
     <MESSAGE value="Create Tasks Api Endpoint view. &#10;Reroute schedulerApp to backend views." />
     <MESSAGE value="Create serializer Task model View" />
     <MESSAGE value="Implement Task-Submission React." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Task-Submission React." />
+    <MESSAGE value="Close Django web-pages from unauthorized users." />
+    <MESSAGE value="Implement auto-rerender of the web-page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement auto-rerender of the web-page." />
   </component>
 </project>
